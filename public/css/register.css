@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@font-face {
+    font-family: "aAttackGraffiti";
+    src: url('/assets/font/aAttackGraffiti.ttf') format('truetype');
+}
+
+.titleNav {
+    font-family: 'aAttackGraffiti';
+    color: black;
+}
+
+.logo {
+    position: absolute;
+    right: 15px;
+    color: #0e2431;
+}
+
+.gambar {
+    height: 35px;
+    width: 50px;
+    border-radius: 15px;
+}
+
+/* .navbar {  
+    width: 100%;  
+    box-shadow: 0 1px 4px rgb(146 161 176 / 15%);  
+   }  
+   .nav-container {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;
+    height: 62px;  
+   }  
+   .nav-container {  
+    display: block;  
+    position: relative;  
+    height: 60px;  
+   }   */
+body {
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    flex-direction: column;
+}
+
+/* .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    flex-direction: column;
+} */
+.box {
+    margin-top: 80px;
+    width: 350px;
+    font-size: 16px;
+    padding: 40px 40px;
+    background: #434856;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 38px;
+}
+
+.user {
+    margin-top: 40px;
+}
+
+input {
+    width: 90%;
+    margin-bottom: 7px;
+    font-size: 10px;
+    color: #fff;
+}
+
+/* input:focus{
+    border-bottom: 1px solid #257696;
+} */
+.login-btn {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    display: block;
+    width: 70%;
+    padding: 15px;
+    background-color: #31a3ff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.8;
+    transition: .2s all;
+    cursor: pointer;
+}
+
+.login {
+    font-size: 13px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.login-link {
+    color: #7fb8e6;
+    cursor: pointer;
+    transition: .3s color;
+}
+
+.login-link:hover {
+    color: #3793df;
+}
+
+#pesan-error {
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.header-tittle {
+    color: white;
+}

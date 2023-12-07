@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "barcelona";
+    src: url('/assets/font/barcelona.otf') format('opentype');
+}
+
+
+#hasil {
+    opacity: 0.5;
+
+    text-align: center;
+}
+
+.header_result {
+    text-shadow: 3px 3px 3px rgb(136, 136, 136);
+
+}
+
+#hasil:hover {
+    opacity: 0.9;
+
+}
+
+#tanggal {
+    border-radius: 5px 0 0 5px;
+    opacity: 0.7;
+    border: 0;
+}
+
+#tanggal:hover {
+    opacity: 1;
+}
+
+.imgheading {
+    height: 90%;
+    width: 90%;
+    box-shadow: 10px black;
+    opacity: 0.7;
+}
+
+.imgheading:hover {
+    opacity: 1;
+}
+
+/* .heading {
+    color: rgb(220, 215, 215);
+    font-family: 'barcelona';
+    font-size: 90px;
+    text-shadow: 3px 5px 3px rgb(0, 0, 0);
+} */
+
+
+
+#carousel {
+    border-radius: 30px;
+    height: 500px;
+}
+
+.caption {
+    margin-bottom: 110px;
+}

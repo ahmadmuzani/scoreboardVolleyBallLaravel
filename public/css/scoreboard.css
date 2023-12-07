@@ -1,0 +1,123 @@
+@font-face {
+    font-family: "aAttackGraffiti";
+    src: url('/assets/font/aAttackGraffiti.ttf') format('truetype');
+}
+
+.titleNav {
+    font-family: 'aAttackGraffiti';
+}
+
+.gambar {
+    height: 35px;
+    width: 50px;
+    border-radius: 15px;
+}
+
+#continformation,
+#test {
+    padding-top: 100px;
+}
+
+
+
+.buttons {
+    margin-right: 50%;
+}
+
+#box-score1,
+#box-score2,
+#set {
+    margin-top: 10px;
+}
+
+
+.wrapper:hover {
+
+    border: 3px solid rgb(236, 236, 236);
+
+}
+
+.profile_pict {
+    margin-top: 100px;
+    outline: none;
+    color: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.5s;
+    background: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    padding: 0px 90px 70px 58px;
+    border-radius: 0px 0px 99px 99px;
+    opacity: 0;
+}
+
+.profile_pict::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.profile_pict::before {
+    content: '\f030';
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+    display: inline-block;
+    -webkit-user-select: none;
+}
+
+.profile_pict::after {
+    content: 'Update';
+    font-family: 'arial';
+    color: #fff;
+    top: 50px;
+    font-size: 5px;
+}
+
+.profile_pict:hover {
+    opacity: 1;
+
+}
+
+
+.profile_pict2 {
+    margin-top: 100px;
+    outline: none;
+    color: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.5s;
+    background: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    padding: 0px 90px 70px 58px;
+    border-radius: 0px 0px 99px 99px;
+    opacity: 0;
+}
+
+.profile_pict2::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.profile_pict2::before {
+    content: '\f030';
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+    display: inline-block;
+    -webkit-user-select: none;
+}
+
+.profile_pict2::after {
+    content: 'Update';
+    font-family: 'arial';
+    color: #fff;
+    top: 50px;
+    font-size: 5px;
+}
+
+.profile_pict2:hover {
+    opacity: 1;
+
+}
